@@ -2,7 +2,7 @@ name: "demp parcties"
 on: push
 jobs:
   demo-practice:
-    runs-on: os
+    runs-on: ubuntu-latest
     steps:
       - name: step 1
         uses: actions/checkout@v3
