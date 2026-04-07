@@ -1,5 +1,6 @@
-name: "demp parcties"
-on: push
+name: "demo parcties"
+on: workflow_dispatch
+    
 jobs:
   demo-practice:
     runs-on: ubuntu-latest
